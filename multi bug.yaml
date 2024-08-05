@@ -39,12 +39,12 @@ akun: &ws
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: xyoruz.my.id
+    servername: quiz.staging.vidio.com.xyoruz.my.id
     network: ws
     ws-opts:
       path: /vless-ws
       headers:
-        Host: xyoruz.my.id
+        Host: quiz.staging.vidio.com.xyoruz.my.id
 akun2: &wgl
     port: 443
     type: vless
