@@ -90,7 +90,7 @@ akun4: &zoom
 proxies:
   - name: vidio
     <<: *ws
-    server: quiz.int.vidio.com
+    server: quiz.staging.vidio.com
   - name: XCL
     <<: *wgl
     server: ava.game.naver.com
