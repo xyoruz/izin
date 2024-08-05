@@ -93,13 +93,13 @@ proxies:
     server: 104.20.245.135
   - name: XCL
     <<: *wgl
-    server: ava.game.naver.com
+    server: 104.18.213.235
   - name: Instagram Jabar
     <<: *IG
     server: xyoruz.my.id
   - name: Axis Unlimitid Game
     <<: *ws
-    server: poe.garena.com
+    server: 104.16.16.243
   - name: xcp vip dobel ytb ws
     <<: *ws
     server: 104.17.3.81
@@ -108,7 +108,7 @@ proxies:
     server: 172.67.73.39
   - name: Xcp Vip Dbl Ytb Wildcard
     <<: *zoom
-    server: support.zoom.us
+    server: 170.114.45.6
 proxy-groups:
   - name: Accont grup
     type: select
