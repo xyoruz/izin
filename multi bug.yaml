@@ -103,9 +103,6 @@ proxies:
   - name: xcp vip dobel ytb ws
     <<: *ws
     server: 104.17.3.81
-  - name: xcp vip dobel ytb ws x1
-    <<: *ws
-    server: 172.67.73.39
   - name: Xcp Vip Dbl Ytb Wildcard
     <<: *zoom
     server: 170.114.45.6
@@ -119,7 +116,6 @@ proxy-groups:
       - Instagram Jabar
       - Axis Unlimitid Game
       - xcp vip dobel ytb ws
-      - xcp vip dobel ytb ws x1
       - Xcp Vip Dbl Ytb Wildcard
 rules:
   - MATCH,Accont grup
