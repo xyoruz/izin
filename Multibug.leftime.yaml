@@ -8,9 +8,10 @@ akun: &ws
     servername: xaillavpn.my.id
     network: ws
     ws-opts:
-      path: /vlws
+      path: /xailla
       headers:
         Host: xaillavpn.my.id
+        
 akun1: &ws1
     port: 443
     type: vless
