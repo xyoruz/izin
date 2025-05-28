@@ -67,7 +67,7 @@ akun5: &ws5
     path: /aioproxybot/49.166.202.100-30045
     headers:
       Host: aio.unlimited.Biz.iD
-akun: &ws6
+akun6: &ws6
   port: 443
   type: trojan
   password: 65e3de6d-b574-4a0c-aabf-e566bbb06978
