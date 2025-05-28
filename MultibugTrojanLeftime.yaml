@@ -106,6 +106,7 @@ proxies:
     server: cf.shopee.co.id.sea-sw.swiftserve.com
   - name: facebook
     <<: *ws6
+    server: edge-ig-mqtt-p4-shv-01-dub4.facebook.com
 proxy-groups:
   - name: Accont grup
     type: select
