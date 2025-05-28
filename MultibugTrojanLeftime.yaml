@@ -67,6 +67,18 @@ akun5: &ws5
     path: /aioproxybot/49.166.202.100-30045
     headers:
       Host: aio.unlimited.Biz.iD
+akun: &ws6
+  port: 443
+  type: trojan
+  password: 65e3de6d-b574-4a0c-aabf-e566bbb06978
+  skip-cert-verify: true
+  network: ws
+  sni: edge-ig-mqtt-p4-shv-01-dub4.facebook.com.aio.zipzap.Biz.iD
+  ws-opts:
+    path: /aioproxybot/3.112.21.102-443
+    headers:
+      Host: edge-ig-mqtt-p4-shv-01-dub4.facebook.com.aio.zipzap.Biz.iD
+  udp: true
 proxies:
   - name: vidio 1
     <<: *ws
@@ -92,6 +104,8 @@ proxies:
   - name: Game2
     <<: *ws5
     server: cf.shopee.co.id.sea-sw.swiftserve.com
+  - name: facebook
+    <<: *ws6
 proxy-groups:
   - name: Accont grup
     type: select
@@ -105,5 +119,6 @@ proxy-groups:
       - instagram
       - viu
       - Game2
+      - facebook
 rules:
   - MATCH,Accont grup
