@@ -1,5 +1,3 @@
-
-
 akun: &ws
     port: 443
     type: vless
@@ -7,12 +5,12 @@ akun: &ws
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: aio.eth0.dpdns.org
+    servername: quiz.int.vidio.com.aio.eth0.dpdns.org
     network: ws
     ws-opts:
       path: /vlws
       headers:
-        Host: aio.eth0.dpdns.org
+        Host: quiz.int.vidio.com.aio.eth0.dpdns.org
 akun1: &ws1
     port: 443
     type: vless
