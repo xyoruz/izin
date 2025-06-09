@@ -1,16 +1,18 @@
+
+
 akun: &ws
     port: 443
     type: vless
-    uuid: 65086c8f-64eb-4e8f-897c-9b141ebcfe83
+    uuid: 378e9201-cb7d-408c-9967-0edd77fa50f4
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: xaillavpn.my.id
+    servername: aio.eth0.dpdns.org
     network: ws
     ws-opts:
       path: /vlws
       headers:
-        Host: xaillavpn.my.id
+        Host: aio.eth0.dpdns.org
 akun1: &ws1
     port: 443
     type: vless
