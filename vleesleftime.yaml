@@ -8,7 +8,7 @@ akun: &ws
     servername: quiz.int.vidio.com.aio.eth0.dpdns.org
     network: ws
     ws-opts:
-      path: /vlws
+      path: /aioproxybot/54.169.229.188-443
       headers:
         Host: quiz.int.vidio.com.aio.eth0.dpdns.org
 akun1: &ws1
